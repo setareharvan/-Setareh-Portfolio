@@ -8,17 +8,20 @@ const translations = {
     logo: "ستاره عاروان",
     nav_home: "خانه", nav_about: "درباره من", nav_skills: "مهارت‌ها",
     nav_experience: "سوابق کاری", nav_certs: "مدارک و تحصیلات", nav_projects: "پروژه‌ها", nav_contact: "تماس",
-    hero_greeting: "👋 سلام، خوش اومدید", 
-    hero_i_am: "من", 
-    hero_name: "ستاره عاروان", 
-    hero_suffix: " هستم", 
+    hero_greeting: "👋 سلام، خوش اومدید",
+    hero_i_am: "من",
+    hero_name: "ستاره عاروان",
+    hero_suffix: " هستم",
     hero_role: "Certified Professional Scrum Master (PSM) | متخصص ارشد کنترل پروژه",
-    hero_bio: "با بیش از ۱۲ سال تجربه در مدیریت محصولات/خدمات جدید و تجاری‌سازی پروژه‌های فناوری اطلاعات. متخصص در برنامه‌ریزی، زمان‌بندی و مدیریت ذینفعان با تسلط بر استانداردهای PMBOK، PRINCE2 و چارچوب اسکرام.",
+    hero_bio: "با بیش از ۱ سال تجربه در مدیریت محصولات/خدمات جدید و تجاری‌سازی پروژه‌های فناوری اطلاعات. متخصص در برنامه‌ریزی، زمان‌بندی و مدیریت ذینفعان با تسلط بر استانداردهای PMBOK، PRINCE2 و چارچوب اسکرام.",
+    stat_num_exp: "+۱۲",
+    stat_num_proj: "+۷۰",
+    stat_num_cert: "۳",
     btn_contact: "ارتباط با من", btn_resume: "دانلود رزومه",
     tag_about: "درباره من", about_title_1: "حرفه‌ای،", about_title_2: "متعهد", about_title_3: "و نتیجه‌گرا",
     about_p1: "من یک اسکرام مستر حرفه‌ای (PSM) با بیش از ۱۲ سال تجربه در مدیریت چرخه حیات پروژه‌های فناوری اطلاعات و پروژه‌های EPC هستم. به عنوان فردی قابل اعتماد، با انگیزه بالا، یادگیرنده سریع و دقیق شناخته می‌شوم.",
     about_p2: "تجربه گسترده‌ای در برنامه‌ریزی و ارائه زمان‌بندی در فازهای مختلف پروژه، تعامل حرفه‌ای با تیم‌های چندگانه و مشتریان، و تهیه گزارش‌های تحلیلی برای مدیران ارشد (C-level) دارم. تسلط کامل بر ابزارهایی مانند MS-Project، Jira، Excel و Visio، از نقاط قوت من در پیشبرد اهداف سازمانی است.",
-    stat_exp: "سال تجربه حرفه‌ای", stat_proj: "پروژه هماهنگ‌شده", stat_cert: "گواهینامه بین‌المللی", stat_commit: "تعهد به تحویل به‌موقع",
+    stat_exp: "سال تجربه حرفه‌ای", stat_proj: "پروژه هماهنگ‌شده", stat_cert: "گواهینامه بین‌المللی",
     philosophy_title: "فلسفه کاری من",
     philosophy_text: "«مدیریت پروژه هنر ایجاد تعادل بین محدوده، زمان، هزینه و کیفیت است، در حالی که تیم را برای رسیدن به یک هدف مشترک الهام‌بخش و هماهنگ نگه می‌داریم.»",
     tag_skills: "توانمندی‌ها", skills_title_1: "مهارت‌های", skills_title_2: "تخصصی",
@@ -49,7 +52,7 @@ const translations = {
     cert_prince: "دوره آنلاین (رهبران سیستم رستاک)", cert_degree: "کارشناسی مهندسی صنایع", cert_uni: "دانشگاه آزاد اسلامی واحد جنوب (۲۰۰۶ – ۲۰۱۱)",
     tag_projects: "نمونه کارها", proj_title_1: "پروژه‌های", proj_title_2: "شاخص",
     proj_1_title: "برنامه اینترنت اشیا (IoT) همراه اول", proj_1_desc: "رهبری و هماهنگی سبد پروژه‌های IoT در بین واحدهای شبکه، فناوری اطلاعات و بازاریابی.",
-    proj_2_title: "مدیریت سبد پروژه‌های بانک مرکزی", proj_2_desc: "هماهنگی و پایش بیش از ۷۰ پروژه در دپارتمان سیستم‌های پرداخت با گزارش‌دهی به هیئت‌مدیره.",
+    proj_2_title: "مدیریت سبد پروژه‌های بانک مرکزی", proj_2_desc: "هماهنگی و پایش بیش از ۰ پروژه در دپارتمان سیستم‌های پرداخت با گزارش‌دهی به هیئت‌مدیره.",
     proj_3_title: "کمیته‌های استراتژیک رایتل", proj_3_desc: "تسهیل کمیته‌های استراتژیک بین واحدهای مختلف و پیاده‌سازی سیستم ردیابی وظایف با Jira.",
     tag_program: "مدیریت برنامه", tag_risk: "مدیریت ریسک", tag_control: "کنترل پروژه", tag_report: "گزارش‌دهی", tag_stakeholder: "مدیریت ذینفعان",
     tag_contact: "ارتباط", contact_title_1: "بیایید با هم", contact_title_2: "همکاری کنیم",
@@ -69,17 +72,20 @@ const translations = {
     logo: "Setareh Arvan",
     nav_home: "Home", nav_about: "About", nav_skills: "Skills",
     nav_experience: "Experience", nav_certs: "Certifications", nav_projects: "Projects", nav_contact: "Contact",
-    hero_greeting: "👋 Hello, Welcome", 
-    hero_i_am: "I am", 
-    hero_name: "Setareh Arvan", 
-    hero_suffix: "", // Empty string is now handled correctly!
+    hero_greeting: "👋 Hello, Welcome",
+    hero_i_am: "I am",
+    hero_name: "Setareh Arvan",
+    hero_suffix: "",
     hero_role: "Certified Professional Scrum Master (PSM) | Senior Project Control Specialist",
     hero_bio: "With over 12 years of experience in managing new products/services and commercializing IT projects. Expert in planning, scheduling, and stakeholder management with mastery of PMBOK, PRINCE2, and Scrum frameworks.",
+    stat_num_exp: "+12",
+    stat_num_proj: "+70",
+    stat_num_cert: "3",
     btn_contact: "Contact Me", btn_resume: "Download Resume",
     tag_about: "About Me", about_title_1: "Professional,", about_title_2: "Committed", about_title_3: "& Results-Driven",
     about_p1: "I am a professional Scrum Master (PSM) with over 12 years of experience in managing the lifecycle of IT and EPC projects. Known as a reliable, highly motivated, fast learner, and detail-oriented professional.",
     about_p2: "Extensive experience in planning and scheduling across different project phases, professional interaction with cross-functional teams and clients, and preparing analytical reports for C-level executives. Full mastery of tools like MS-Project, Jira, Excel, and Visio.",
-    stat_exp: "Years of Experience", stat_proj: "Coordinated Projects", stat_cert: "Int'l Certifications", stat_commit: "On-time Delivery",
+    stat_exp: "Years of Experience", stat_proj: "Coordinated Projects", stat_cert: "Int'l Certifications",
     philosophy_title: "My Work Philosophy",
     philosophy_text: "\"Project management is the art of balancing scope, time, cost, and quality, while keeping the team inspired and aligned toward a common goal.\"",
     tag_skills: "Capabilities", skills_title_1: "Core", skills_title_2: "Competencies",
@@ -155,7 +161,7 @@ themeToggle.addEventListener('click', () => {
   setTheme(newTheme);
 });
 
-// ---------- Language Toggle Logic (FIXED) ----------
+// ---------- Language Toggle Logic ----------
 function setLanguage(lang) {
   htmlRoot.setAttribute('lang', lang);
   htmlRoot.setAttribute('dir', lang === 'fa' ? 'rtl' : 'ltr');
@@ -163,7 +169,7 @@ function setLanguage(lang) {
 
   langToggle.textContent = lang === 'fa' ? 'EN' : 'FA';
 
-  // 1. Translate text content (using hasOwnProperty to allow empty strings)
+  // 1. Translate text content
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (Object.prototype.hasOwnProperty.call(translations[lang], key)) {
@@ -203,7 +209,23 @@ window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 50);
 });
 
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  const icon = menuToggle.querySelector('i');
+  icon.classList.toggle('fa-bars');
+  icon.classList.toggle('fa-times');
+});
 
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+    const icon = menuToggle.querySelector('i');
+    icon.classList.add('fa-bars');
+    icon.classList.remove('fa-times');
+  });
+});
 
 const revealElements = document.querySelectorAll('.reveal');
 const revealObserver = new IntersectionObserver((entries) => {
